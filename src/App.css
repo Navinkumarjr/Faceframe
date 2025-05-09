@@ -63,3 +63,37 @@
   }
   
 }
+@media (max-width: 432.98px) {
+  .webcam{
+    width:200px;
+    height: fit-content;
+  }
+  #Appcanvas{
+    width:200px;
+    height: fit-content;
+  }
+  .currentemotion{
+    font-size: small;
+  }
+}
+@media (max-width: 301px) {
+  .webcam{
+    width:150px;
+    height: fit-content;
+  }
+  #Appcanvas{
+    width:150px;
+    height: fit-content;
+  }
+  
+}@media (max-width: 256.98px) {
+  .webcam{
+    width:80px;
+    height: fit-content;
+  }
+  #Appcanvas{
+    width:80px;
+    height: fit-content;
+  }
+  
+}
