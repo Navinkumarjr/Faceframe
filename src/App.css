@@ -1,0 +1,65 @@
+.webcam-section{
+  margin:100px;  
+}
+.webcam-wrapper {
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: 4 / 3; /* Or 16/9 depending on your video */
+}
+/* Tablet and larger (768px+) */
+@media (min-width: 768px) {
+  .webcam{
+    width:300;
+    height: 200;
+  }
+}
+
+/* Desktop (1024px+) */
+@media (max-width: 874px) {
+  .webcam{
+    width: 680px;
+    height: fit-content;
+  }
+ 
+}
+@media (max-width: 769px) {
+  .webcam{
+    width: 600px;
+    height: fit-content;
+  }
+  #Appcanvas{
+    width:600px;
+    height: fit-content;
+  }
+}
+@media (max-width: 675px) {
+  .webcam{
+    width: 400px;
+    height: fit-content;
+  }
+  #Appcanvas{
+    width:400px;
+    height: fit-content;
+  }
+}
+@media (max-width: 575.98px) {
+  .webcam{
+    width:300px;
+    height: fit-content;
+  }
+  #Appcanvas{
+    width:300px;
+    height: fit-content;
+  }
+}
+@media (max-width: 376.98px) {
+  .webcam{
+    width:250px;
+    height: fit-content;
+  }
+  #Appcanvas{
+    width:250px;
+    height: fit-content;
+  }
+  
+}
